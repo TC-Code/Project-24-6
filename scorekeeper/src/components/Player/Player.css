@@ -1,0 +1,32 @@
+.Player {
+  display: flex;
+  justify-content: center;
+}
+.Player__name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid #5a78b9;
+  color: #ffffff;
+  height: 50px;
+  min-width: 240px;
+}
+.Player__score,
+.Player__button,
+.Player__remove {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid #5a78b9;
+  width: 50px;
+  text-align: center;
+}
+.Player__remove {
+  color:#a32525;;
+  cursor: pointer;
+}
+.Player__button {
+  cursor: pointer;
+}

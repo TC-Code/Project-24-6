@@ -1,0 +1,32 @@
+.AddPlayer {
+  margin-bottom: 10px;
+}
+.AddPlayer__input {
+  background-color: #5a78b9;
+  color: #ffffff;
+  font-weight: 600;
+  height: 50px;
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  border-width: 0;
+  outline: none;
+  font-size: 20px;
+}
+.AddPlayer__submit {
+  background-color: #5a78b9;
+  color: #ffffff;
+  outline: none;
+  width: 80px;
+  height: 50px;
+  border-width: 0;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 5px;
+  font-size: 20px;
+}
+.AddPlayer__submit:hover {
+  background-color: #3f68be;
+}
